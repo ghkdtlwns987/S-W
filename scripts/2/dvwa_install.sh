@@ -56,6 +56,8 @@ echo "Restarting Apache2 Service...."
 service apache2 restart
 sleep 1
 
+apt update -y
+
 echo DONE!!
 echo ID : dvwa
 echo PW : p@ssw0rd
