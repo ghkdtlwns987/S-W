@@ -12,6 +12,7 @@ done
 echo "Install Package and Settings"
 apt update -y
 apt upgrade -y
+apt install -y git
 apt install -y apache2
 apt install -y mysql-server
 apt install -y php php-mysqli php-gd libapache2-mod-php
